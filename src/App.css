@@ -4,7 +4,9 @@
 }
 
 body {
-  background-color: #020631;
+  /* background-color: #020631; */
+  background-color: gray;
+
 }
 
 .app {
@@ -89,4 +91,30 @@ h2 {
   font-weight: 700;
   font-style: normal;
   color: grey;
+}
+
+.button-complete, 
+.button-edit,
+.button-delete{
+  border:none;
+  outline:none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.button-complete .fa-check-circle{
+  color: green;
+  
+}
+
+.button-edit .fa-edit{
+  color: #8B8000;
+  
+}
+
+.button-delete .fa-trash{
+  color: red;
+  
 }
